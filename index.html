@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Moja strona internetowa</title>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lightbox2-2.11.1/dist/css/lightbox.min.css">
+        <link rel="stylesheet" type="text/css" href="css/navbardark.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/galeria.css">
+        <script src="js/PageOnTheTop.js" defer></script>
+        <script src="js/navbarcolor.js" defer></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="lightbox2-2.11.1/dist/js/lightbox-plus-jquery.min.js" defer></script>
+</head>
+
+<body data-spy = "scroll" data-target = ".navbar" data-offset = "50">
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark1 fixed-top">
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href = "#me">O mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href = "#education">Wykształcenie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href = "#hobby">Zainteresowania</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</header>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+        <div class="carousel-inner">
+            <!--W-100 wymuszenie zakończenia wiersza-->
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/img1.jpeg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Witaj na mojej stronie!</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/img2.jpeg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Witaj na mojej stronie!</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/img3.jpeg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Witaj na mojej stronie!</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+</div>
+
+<!-- First Container (About me) -->
+<!-- Podział na dwie równe kolumny, opis (lewa część), zdjęcie (prawa część) -->
+<div id="me" class="container-fluid bg-2">
+    <div class="row">
+        <div class="col-md-6 position">
+            <h3>O mnie</h3>
+            <p class="fat">Piotr Grajczyk</p><br>
+            <a class="reference" href="https://pl.linkedin.com"><img src="images/Linkedin.png" alt="odnośnik1" /></a>
+            <a class="reference" href="https://facebook.com"><img src="images/facebook.png" alt="odnośnik2" /></a>
+            <a class="reference" href="https://instagram.com"><img src="images/insta.png" alt="odnośnik2" /></a>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium sapien sed ex tincidunt, ut commodo ex interdum. Aliquam erat volutpat. Nullam ornare elit eu purus porta iaculis. Etiam aliquam, sem non commodo fermentum, arcu erat.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="images/profile.jpg" class="rounded img-fluid" alt="Image">
+        </div>
+    </div>
+</div>
+<script src="js/scrolling-nav.js"></script>
+
+<!-- Second Container (Grid) -->
+<div id="education" class="container-fluid bg-3 text-center">
+    <h3 class="margin">Wykształcenie</h3><br>
+    <div class="row">
+        <div class="col-lg-12 col-xl-4">
+            I Liceum Ogólnokształcące
+            <p class="data">Profil: matematyczno-fizyczny</p>
+            <p class="data">09.2012 - 06.2015</p>
+            <img src="images/szkola1.jpg" class="img-fluid rounded-circle" style="width:375px; height: 250px;" alt="Image">
+        </div>
+        <div class="col-lg-12 col-xl-4">
+            Politechnika Gdańska<br>
+            <p class="data">Poziom wykształcenia: inżynier</p>
+            <p class="data">10.2015 - 02.2019</p>
+            <img src="images/szkola2.jpg" class="img-fluid rounded-circle" style="width:375px; height: 250px;" alt="Image">
+        </div>
+        <div class="col-lg-12 col-xl-4">
+            Politechnika Gdańska<br>
+            <p class="data">Poziom wykształcenia: magister</p>
+            <p class="data">02.2019 - obecnie</p>
+            <img src="images/szkola3.jpg" class="img-fluid rounded-circle" style="width:375px; height: 250px;" alt="Image">
+        </div>
+    </div>
+</div>
+
+    <!-- Third Container (Hobbys) -->
+<div id="hobby" class="container-fluid bg-4 text-center">
+    <h3 class="margin">Zainteresowania</h3><br>
+        <!-- Responsive Image Gallery using Flexbox and Lightbox -->
+    <div class="row">
+        <div class="column">
+                Pozdróże
+            <a class="example-image-link" href="images/Travel/img1.jpeg" data-lightbox="example-set" data-title="Nursultan, centrum miasta"><img class="example-image" src="images/Travel/img1.jpeg" style="width:100%" alt="Img1"/></a>
+            <a class="example-image-link" href="images/Travel/img2.jpeg" data-lightbox="example-set" data-title="Zachód słońca w stolicy Kazachstanu"><img class="example-image" src="images/Travel/img2.jpeg" style="width:100%" alt="Img2"/></a>
+            <a class="example-image-link" href="images/Travel/img3.jpeg" data-lightbox="example-set" data-title="Metro w Taszkiencie"><img class="example-image" src="images/Travel/img3.jpeg" style="width:100%" alt="Img3"/></a>
+        </div>
+
+        <div class="column">
+                Góry
+            <a class="example-image-link" href="images/Travel/img4.jpeg" data-lightbox="example-set" data-title="Góry Pamir"><img class="example-image" src="images/Travel/img4.jpeg" style="width:100%" alt="Img4"/></a>
+            <a class="example-image-link" href="images/Travel/img5.jpeg" data-lightbox="example-set" data-title="Pik Uczitiel"><img class="example-image" src="images/Travel/img5.jpeg" style="width:100%" alt="Img5"/></a>
+            <a class="example-image-link" href="images/Travel/img6.jpeg" data-lightbox="example-set" data-title="Tien-szan"><img class="example-image" src="images/Travel/img6.jpeg" style="width:100%" alt="Img6"/></a>
+        </div>
+
+        <div class="column">
+                Fotografia
+            <a class="example-image-link" href="images/Travel/img7.jpeg" data-lightbox="example-set" data-title="Radiowóz policyjny"><img class="example-image" src="images/Travel/img7.jpeg" style="width:100%" alt="Img7"/></a>
+            <a class="example-image-link" href="images/Travel/img8.jpeg" data-lightbox="example-set" data-title="Jezioro Song-kol"><img class="example-image" src="images/Travel/img8.jpeg" style="width:100%" alt="Img8"/></a>
+            <a class="example-image-link" href="images/Travel/img9.jpeg" data-lightbox="example-set" data-title="Kanion Skazka"><img class="example-image" src="images/Travel/img9.jpeg" style="width:100%" alt="Img9"/></a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-5 text-center">
+    <p>Made by Piotr Grajczyk</p>
+</footer>
+
+</body>
+</html>
