@@ -1,0 +1,11 @@
+.navbar-dark1 .navbar-brand{color:#fff}
+.navbar-dark1 .navbar-brand:focus,.navbar-dark1 .navbar-brand:hover{color:#fff}
+.navbar-dark1 .navbar-nav .nav-link{color: #ffffff}
+ .nav-link:focus,.navbar-dark1 .nav-link:hover {color:#1abc9c}
+.navbar-dark1 .navbar-nav .nav-link.disabled{color:rgba(255,255,255,.25)}
+.navbar-dark1 .navbar-nav .active>.nav-link,.navbar-dark1 .navbar-nav .nav-link.active,.navbar-dark1 .navbar-nav .nav-link.show,.navbar-dark1 .navbar-nav .show>.nav-link {color:#1abc9c}
+.navbar-dark1 .navbar-toggler{color:rgba(255,255,255,.5);border-color:rgba(255,255,255,.1)}
+.navbar-dark1 .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+.navbar-dark1 .navbar-text{color:rgba(255,255,255)}
+.navbar-dark1 .navbar-text a{color:#fff}
+.navbar-dark1 .navbar-text a:focus,.navbar-dark1 .navbar-text a:hover {color:#1abc9c}
